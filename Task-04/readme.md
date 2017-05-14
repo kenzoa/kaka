@@ -1,13 +1,5 @@
 # Task-04
 ### 主要流程
-
-```
-graph LR
-虚拟机-->网站
-网站-->模板
-模板-->新闻发布
-新闻发布-->相关问题
-```
 ## 1.虚拟机的安装与调试
 + 在网络上下载好VMware 虚拟机安装包，点击安装。
  安装完成后在网上查找激活码，打开虚拟机在此处键入![](images/001.png)
@@ -42,13 +34,4 @@ graph LR
 删去或者在代码前加 ’ ，如 ’if trim(ns_domain)<>"" then。
 4. content.html中 内容块样式不用写字符大小间距等等等等，因为在新闻显示样式中已自动包含。
 5. 当遇到无法在主机复制文件进入虚拟机时，可以按图示尝试解决![](images/008.png)
-
-
-```graphLR
-    A[Hard edge] -->|Link text| B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
-```
-    
 
