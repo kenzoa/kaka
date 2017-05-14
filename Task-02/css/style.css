@@ -6,6 +6,24 @@ body{
 	margin: 0 auto;
 }
 
+#ss{
+	width: 1000px;
+	height: auto;
+	margin: 12px auto 5px auto;
+}
+#st{
+    width: 1000px;
+	height: 300px;
+	margin-top: 12px;
+	margin: 0 auto;
+}
+#con{
+	width: 1000px;
+	height: 300px;
+	margin-top: 12px;
+	margin: 0 auto;
+}
+
 .dian{
 	list-style: none;
 }
@@ -76,10 +94,12 @@ body{
 	height: auto;
 	margin-bottom: 10px;
 }
+
 #bc p{
 	text-align: center;
-    margin-top: 0px;
+	margin-top: 0px;
 }
+
 #bc p a{
 	text-decoration: none;
 	color: #000000;
@@ -106,7 +126,7 @@ body{
 }
 
 #bc22{
-	width: 435px;
+	width: 436px;
 	height: auto;
 	margin-top: 12px;
 	margin: 0 auto;
@@ -118,9 +138,9 @@ h2{
 }
 #bc22dian{
 	list-style-image: url(../img/demo05.png);
-	white-space: nowrap;
 	line-height: 30px;
 }
+
 #bc22dian span{
     float: right;
 }
