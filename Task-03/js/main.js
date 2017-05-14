@@ -10,27 +10,24 @@ $(document).ready(function() {
 
         });
     };
-    $.navlevel2("li.mainlevel", 300);
-}); /*in 2017.03.15*/
+    $.navlevel2("li.dropdown", 300);
+}); 
 
-/*2015.03.25 js of pic-box wordmove*/
 $(function() {
-    //1文字轮播(2-5页中间)开始
 
     $(".font_inner li:eq(0)").clone(true).appendTo($(".font_inner")); //克隆第一个放到最后(实现无缝滚动)
-    var liHeight = $(".swiper_wrap").height(); //一个li的高度
-    //获取li的总高度再减去一个li的高度(再减一个Li是因为克隆了多出了一个Li的高度)
+    var liHeight = $(".swiper_wrap").height(); 
     var totalHeight = ($(".font_inner li").length * $(".font_inner li").eq(0).height()) - liHeight;
-    $(".font_inner").height(liHeight); //给ul赋值高度
+    $(".font_inner").height(liHeight);
     var index = 0;
-    var autoTimer = 0; //全局变量目的实现左右点击同步
-    var clickEndFlag = true; //设置每张走完才能再点击
+    var autoTimer = 0; 
+    var clickEndFlag = true; 
 
     function tab() {
         $(".font_inner").stop().animate({
             top: -index * liHeight
         }, 400, function() {
-            clickEndFlag = true; //图片走完才会true
+            clickEndFlag = true; 
             if (index == $(".font_inner li").length - 1) {
                 $(".font_inner").css({
                     top: 0
@@ -42,7 +39,7 @@ $(function() {
 
     function next() {
         index++;
-        if (index > $(".font_inner li").length - 1) { //判断index为最后一个Li时index为0
+        if (index > $(".font_inner li").length - 1) { 
             index = 0;
         }
         tab();
@@ -56,12 +53,12 @@ $(function() {
         }
         tab();
     }
-    //自动轮播
+  
     autoTimer = setInterval(next, 5000);
     $(".font_inner a").hover(function() {
             clearInterval(autoTimer);
         }, function() {
             autoTimer = setInterval(next, 5000);
         })
-        //1文字轮播(2-5页中间)结束
+    
 })
