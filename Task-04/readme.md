@@ -43,5 +43,12 @@ graph LR
 4. content.html中 内容块样式不用写字符大小间距等等等等，因为在新闻显示样式中已自动包含。
 5. 当遇到无法在主机复制文件进入虚拟机时，可以按图示尝试解决![](images/008.png)
 
+
+```graphLR
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+```
     
 
