@@ -31,7 +31,7 @@
      ns_path = fg_str & ""&ns_sitename&""
     end if
 ```
-删去或者在代码前加 ’ ，如 ’if trim(ns_domain)<>"" then。
-4. 在content.html中 内容块样式不用写字符大小间距等等等等，因为在新闻显示样式中已自动包含。
+删去或者在代码前加 ’ ，如 ’if trim(ns_domain)<>"" then。</br>
+4. 在content.html中 内容块样式不用写字符大小间距等等等等，因为在新闻显示样式中已自动包含。</br>
 5. 当遇到无法在主机复制文件进入虚拟机时，可以按图示尝试解决![](images/008.png)
 
