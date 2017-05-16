@@ -15,7 +15,27 @@
 
 #ab h1{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
+    color: white;
+    font-family: "STZhongsong";
+}
+.dropdown-menu li a{
+   text-align: center; 
+   padding-bottom: 7%;
+   padding-top: 7%;   
+}
+.example{
+    background-color: rgb(0,105,134);
+}
+.example ul{
+    width: 100%; 
+    background-color: rgb(0,105,134);  
+}
+.example ul li{
+    height: 40px;
+    line-height: 40px;
+}
+.example ul li a{
     color: white;
 }
 
@@ -24,7 +44,7 @@
     display: block;
 }
 .tsil h2{
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid rgb(3,132,168);
 }
 .tubord{
     border: 1px solid #000000;
@@ -40,6 +60,8 @@
     max-width: 80%;
     text-overflow: ellipsis;
     overflow: hidden;
+    color: black;
+    font-size: 1.2em;
 }
 .tsil ul li{
     line-height: 40px;
@@ -55,14 +77,20 @@
     float: right;
 }
 .outbord{
-    border: 1px solid #000000;
+    border: 1.5px solid #000000;
+    max-width: 95%;
+    margin: 0 auto;
 }
 #bac{
-    background-color: red;
+    background-color: rgb(3,132,168);
     color: white;
+}
+.hah{
+    color: rgb(3,132,168);
 }
 
 
+@media screen and (min-width: 1200px) { }
 
 @media screen and (max-width: 1200px) {
     #ab,#aa{
@@ -71,9 +99,29 @@
         background-size: 170px 170px;
     }
     #ab h1{
-        color: blue;
+        color: rgb(0,105,134);  
     }
 }
+@media screen and (min-width: 992px) {}
+
+@media screen and (min-width: 992px) {}
 
 
+@media screen and (max-width: 768px){
+    body{
+        padding-top: 50px;
+        position: relative;
+    }
+    .navbar-default {
+        position: absolute;top: 0px;right: 0px;
+        width: 100%;
+        background-color: rgb(0,105,134);
+    }
+    .dropdown-menu li a{
+        text-align: center;
+        padding:0;
+    }
 
+
+    
+}
