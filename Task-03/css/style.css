@@ -13,23 +13,53 @@
     padding-top: 50px;
 }
 
-.text-center{
+#ab h1{
+    text-align: center;
     margin-top: 40px;
     color: white;
 }
 
 .container{
     width: 95%;
-    display:block;
+    display: block;
 }
-h2{
+.tsil h2{
     border-bottom: 2px solid blue;
+}
+.tubord{
+    border: 1px solid #000000;
+    padding: 5px;
 }
 .tupian{
     max-width: 100%;
 }
 .tsil li a{
     white-space: nowrap;
+    display: block;
+    float: left;
+    max-width: 80%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.tsil ul li{
+    line-height: 40px;
+    height: 40px;
+}
+.more{
+    float: right;
+}
+#pp{
+    text-indent: 2em;
+}
+.time{
+    float: right;
+}
+.outbord{
+    border: 1px solid #000000;
+}
+#bac{
+    background-color: red;
+    color: white;
 }
 
 
@@ -40,7 +70,7 @@ h2{
         height: 170px;
         background-size: 170px 170px;
     }
-    .text-center{
+    #ab h1{
         color: blue;
     }
 }
