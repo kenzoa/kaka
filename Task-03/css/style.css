@@ -1,5 +1,5 @@
 #aa {
-    background:rgb(3,132,168) url(../img/001.png) no-repeat left top;
+    background:rgba(3,132,168,1) url(../img/001.png) no-repeat left top;
     height: 220px;
     margin-left: auto;
     margin-right: auto;
@@ -19,21 +19,26 @@
     color: white;
     font-family: "STZhongsong";
 }
+.nav a:hover{
+    color: rgb(3,132,168);
+}
 .dropdown-menu li a{
    text-align: center; 
-   padding-bottom: 7%;
-   padding-top: 7%;   
+   padding-top: 9%;
+   padding-bottom: 9%; 
 }
 .example{
     background-color: rgb(0,105,134);
+    position: relative;z-index: 113;
 }
 .example ul{
     width: 100%; 
+    line-height: 50px;
     background-color: rgb(0,105,134);  
 }
 .example ul li{
-    height: 40px;
-    line-height: 40px;
+    height: 50px;
+    vertical-align: middle;
 }
 .example ul li a{
     color: white;
@@ -53,6 +58,24 @@
 .tupian{
     max-width: 100%;
 }
+#yqlj h2{
+    border-bottom: 2px solid rgb(3,132,168);
+}
+#yqlj li a{
+    white-space: nowrap;
+    display: block;
+    float: left;
+    max-width: 80%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: black;
+    font-size: 1.2em;
+}
+#yqlj ul li{
+    line-height: 40px;
+    height: 40px;
+}
+
 .tsil li a{
     white-space: nowrap;
     display: block;
@@ -67,12 +90,19 @@
     line-height: 40px;
     height: 40px;
 }
+.tsil ul{
+    list-style-image:url(../img/009.png);
+}
 .more{
     float: right;
 }
 #pp{
     text-indent: 2em;
 }
+.ll{
+    position:relative;right: 25px;
+}
+
 .time{
     float: right;
 }
@@ -89,8 +119,29 @@
     color: rgb(3,132,168);
 }
 
+#tzgg h2{
+    background:url(../img/004.png) no-repeat left;
+    text-indent: 1.3em;
+}
+#ztyw h2{
+    background:url(../img/005.png) no-repeat left;
+    text-indent: 1.3em;
+}
+#xxzl h2{
+    background:url(../img/006.png) no-repeat left;
+    text-indent: 1.3em;
+}
+#jygg h2{
+    background:url(../img/007.png) no-repeat left;
+    text-indent: 1.3em;
+}
+#yqlj h2{
+    background:url(../img/008.png) no-repeat left;
+    text-indent: 1.3em;
+}
 
-@media screen and (min-width: 1200px) { }
+
+@media screen and (min-width: 1200px) {}
 
 @media screen and (max-width: 1200px) {
     #ab,#aa{
@@ -119,9 +170,7 @@
     }
     .dropdown-menu li a{
         text-align: center;
-        padding:0;
-    }
-
-
-    
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }    
 }
