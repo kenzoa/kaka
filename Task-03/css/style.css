@@ -19,6 +19,9 @@
     font-family: "STZhongsong";
     text-align: left;
 }
+.clear:{
+    clear: both;
+}
 .nav a:hover{
     color: rgb(3,132,168);
 }
@@ -106,6 +109,8 @@
 
 .more{
     float: right;
+    font-size: 0.8em;
+    font-weight: 700;
 }
 #pp{
     text-indent: 2em;
@@ -132,7 +137,6 @@
 }
 .hah{
     color: rgb(3,132,168);
-    white-space: nowrap;
 }
 #tzgg h2{
     background:url(../img/004.png) no-repeat left;
@@ -207,5 +211,8 @@
     }
     .container{
         width: 100%; 
+    }
+    #yqlj{
+        border: none;
     }    
 }
