@@ -78,6 +78,9 @@
     color: black;
     font-size: 1.2em;
 }
+#yqlj li a:hover{
+    color: rgb(3,132,168);
+}
 #yqlj ul li{
     line-height: 40px;
     height: 40px;
@@ -92,14 +95,15 @@
     overflow: hidden;
     color: black;
     font-size: 1.2em;
+    background:url(../img/009.png) no-repeat left;
+    text-indent: 20px;
 }
 .tsil ul li{
     line-height: 40px;
     height: 40px;
+    list-style: none;
 }
-.tsil ul{
-    list-style-image:url(../img/009.png);
-}
+
 .more{
     float: right;
 }
@@ -107,9 +111,12 @@
     text-indent: 2em;
 }
 .ll{
-    position:relative;right: 20px;
+    position:relative;right: 30px;
 }
-
+.ll a:hover{
+    color: blue;
+    font-family: "STZhongsong";
+}
 .time{
     float: right;
 }
