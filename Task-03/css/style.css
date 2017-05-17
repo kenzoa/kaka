@@ -72,7 +72,9 @@
     white-space: nowrap;
     display: block;
     float: left;
-    max-width: 80%;
+    max-width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
     color: black;
     font-size: 1.2em;
 }
@@ -85,7 +87,7 @@
     white-space: nowrap;
     display: block;
     float: left;
-    max-width: 80%;
+    max-width: 70%;
     text-overflow: ellipsis;
     overflow: hidden;
     color: black;
@@ -105,7 +107,7 @@
     text-indent: 2em;
 }
 .ll{
-    position:relative;right: 25px;
+    position:relative;right: 20px;
 }
 
 .time{
@@ -163,6 +165,9 @@
     }
     #ab h1{
         color: rgb(0,105,134); 
+    }
+    #ttit{
+    position:relative;right: 14px;
     }
 }
 @media screen and (min-width: 992px) {}
