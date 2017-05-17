@@ -14,7 +14,7 @@
 }
 
 #ab h1{
-    margin-top: 0px;
+    margin-top: -10px;
     color: white;
     font-family: "STZhongsong";
     text-align: left;
@@ -192,5 +192,8 @@
     }
     #ab h1{
         position: absolute;left: 140px;
+    }
+    .container{
+        width: 100%; 
     }    
 }
